@@ -1,12 +1,43 @@
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <div className="z-10 max-w-5xl w-full items-center justify-between font-mono text-sm lg:flex">
-        <p className="fixed left-0 top-0 flex w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto  lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
-          This is my hompage and about me page&nbsp;
-          <code className="font-mono font-bold">src/app/page.tsx</code>
-        </p>
-      </div>
+      <section>
+        {`
+        Hey you. You're finally awake.
+
+        I am an experienced front-end developer with a growing interest in back-end technologies.
+        Skilled in project leadership and independent contribution.
+        Known for quickly grasping new concepts and delivering effective solutions to business challenges.
+        `}
+      </section>
+      <section>
+        I love to explore technologies, but these are what I am most experienced at.
+
+        --Tech stack goes here--
+      </section>
+      <section>
+        I have had the privilge of working for several organisations like
+
+        --Experience goes here--
+      </section>
+      <section>
+        I have been very intrigued by the internet since my college days, I have worked on a few projects like
+
+        --Projects go here--
+
+        check out my github for more
+      </section>
+      <section>
+        I went here for my Bachelor of Engineering degree
+
+        --Collge goes here--
+      </section>
+      <section>
+        Get my resume
+      </section>
+      <section>
+        {`Let's connect socially`}
+      </section>
     </main>
   );
 }
