@@ -15,6 +15,12 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
    I am exploring NVM next, which can leavarage the next-dev environment much better.
 
+2. Embedding isnt smooth.
+   I tried Linkedin, twitter and medium.
+   Medium - no outright way, exposes some Rss way, did not seem maintainable.
+   Linkedin - gives an Iframes option,but does not work. The DOM nodes seem fine though.
+   Twitter - exposes a blockquote, but vercel suggests the `next-tweet` package which just needs tweet-id, works fine for now.
+
 # What I want
 
 Home - should be same as about me
