@@ -19,7 +19,10 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
    I tried Linkedin, twitter and medium.
    Medium - no outright way, exposes some Rss way, did not seem maintainable.
    Linkedin - gives an Iframes option,but does not work. The DOM nodes seem fine though.
-   Twitter - exposes a blockquote, but vercel suggests the `next-tweet` package which just needs tweet-id, works fine for now.
+   Goodreads - Static content, needs mannual updation
+   Twitter - Timeline integration does not work but individual posts work
+   Instagram - Timeline integration does not work but individual posts work
+   Spotify,youtube work with iframes
 
 # What I want
 
@@ -27,7 +30,3 @@ Home - should be same as about me
 
 Talking tech - my embedded linkedin/tweets/blogs
 Personnel (non tech discussions) - maybe embedded instagram/tweets
-
-These two are the same. So I can use the same page for now, will customize a layout for personal in the future if need be.
-
-How do I edit ? embed new posts
