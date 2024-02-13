@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Script from "next/script";
 
 export const metadata: Metadata = {
     title: "Socials",
@@ -10,9 +11,12 @@ export default function RootLayout({
 }: Readonly<{
     children: React.ReactNode;
 }>) {
-    return (
+    return (<>
         <section>
             {children}
         </section>
+        <Script src="https://platform.twitter.com/widgets.js" />
+        <Script src="//www.instagram.com/embed.js" />
+    </>
     );
 }
